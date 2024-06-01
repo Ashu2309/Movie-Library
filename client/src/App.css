@@ -1,0 +1,51 @@
+.sidebar {
+  background-color: #0f1014;
+  width: fit-content;
+  padding: 4rem 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  a {
+    color: #fff;
+    font-size: 2rem;
+    margin: 1rem 0;
+  }
+  .avatar {
+    border: 0.3rem solid cyan;
+  }
+}
+.main-container {
+  background-color: #0f1014;
+  min-height: 100vh;
+  width: 100%;
+  input {
+    color: #fff;
+  }
+}
+
+.movie_item {
+  position: relative;
+  overflow: hidden;
+}
+
+.active_card {
+  transform: all 0.3s;
+  position: absolute;
+  top: -25%;
+  left: -25%;
+  transform: translate(0%, 0%);
+  width: 350px;
+  height: 400px !important;
+  z-index: 99;
+  color: #fff;
+  figure {
+    width: 350px;
+    height: 400px !important;
+    img {
+      height: 100%;
+      width: 100%;
+    }
+  }
+}
