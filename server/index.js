@@ -5,6 +5,8 @@ import playlistRouter from "./Router/playlistRoutes.js"
 import movieRouter from "./Router/movieRoutes.js"
 import cors from "cors"
 import dotenv from "dotenv";
+import path from "path"
+
 
 connectDB();
 
